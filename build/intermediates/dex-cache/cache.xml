@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-f63afadc3749b1a21e47db029a1e9e766f1954e0.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/AdsMOGO_Android_SDK_1.5.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="de809bea34a89b92342a5b5a84f6899639f46cc9">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/AdsMOGO_Android_SDK_1.5.4-2e57a63a43a94bd19d8a36903322fc07f4d80ea7.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/Android_Mac/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-57e93a9f6c9fa3feb3443dddb60ab83bb35474d3.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-dbf5da82965f2b42fe7a17dbb5c3dd9ae61c913e.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-53421e06471c5820fdcc181dd4ebb402a5e5e77a.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/umeng-analytics-v5.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f9eccf79ae6006e4346725b09114182dca0c023">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/umeng-analytics-v5.2.4-504d8a7a2b4707e34a9ed1b173e7a25c772c0aa8.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-06d1b8e2a5c2353ccede4c0bc3fa36887226496a.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-6877f7d7d8a3e842028611e6026e1ce87d90419b.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-2d46a6ed10e6c00ecd6a9baac7103cf5f9e2116f.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-d9294b0561cf9273681fe11c4a880a9f1ea917e9.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-ed7ee9ce08eea8e08c6e2ed1691cf1af8b4b7a71.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/universal-image-loader-1.8.6-with-sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9ad605dd55be2e74e614b2ab2ff466439c4461b7">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.8.6-with-sources-5db634b446352b2447567d13a6079b45e0f963fc.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-95584e008501ec893f50ce38d79513737d23c31f.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/rockeagle.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bed56387d65319246611c66f62953be2aaec4098">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/rockeagle-12d782ddf85bebdaad8291de33923e1f2cd6755b.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-a5d1ad1b09f9b56448b08d0ddbeb49a5a9954360.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-4b915d2287b21234f972bec034f8e43cd6b4a439.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-f242d1b5590e91a72030ea9a6223f9410cf39981.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-d10d48fc7839783c594b39cf48715ac04721acca.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-d745ea804eaf6fe211187029bf5c5ff56d70a01a.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-beba4e2f1a79cb76492011557a8320f8446e36e8.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-98679a407babc240ff6ac9c2e66da977ea1e99b8.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/commons-net-3.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="643cc426b9f75aa111fac0fac0e52ff5d991a337">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/commons-net-3.0.1-7c8e769ab605691ab831d723032847ea164a8aed.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/locSDK_5.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a32e48b24fe3fe9fa8ae1cb8345b8db9a050df0f">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/locSDK_5.1-57784f77ad8ccd66df6c3ae0b3aaec3a51873fa0.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/android-viewpagerindicator.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="90f1453dfd2aac5820587eb2aa6fb40f8ea0b394">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/android-viewpagerindicator-05526a2c55fce45c75f4b1456d3491b64030fddc.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-dbca0cd65c5ec837b79fe2a181f13f82ac3b22e0.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-7d371315e18c8244d3c2130bdcf501bf2b076342.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-afa468cd34ecae58193cac398bc3c19aa7f40f7f.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-b56cb69ab8ea80464816ccd0ce2e7c66b581f7da.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/libs/YoumiSdk_v4.10_2014-11-24.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1d9ab60b9c5d136ff6e0dfad05679776f4ba95d">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/YoumiSdk_v4.10_2014-11-24-10f6f287a39fe448ac369c03e397bc167a48e92d.jar" />
+    </item>
+    <item
+        jar="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/pre-dexed/debug/classes-ff0627cda8083f94b4e9ad368671d114ac7962e2.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/welcomeLayout"
+    >
+    <com.stefan.city.ui.layout.REScrollLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"    
+	  android:id="@+id/welcomeConlayout"    
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  android:visibility="visible"
+	  >
+	  <!-- 
+      <RelativeLayout  
+	  	android:layout_width="fill_parent"    
+	  	android:layout_height="fill_parent"
+	  	>
+          <TextView
+              android:id="@+id/t1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentTop="true"
+              android:layout_centerHorizontal="true"
+              android:layout_marginTop="96dp"
+              android:text="@string/title_welcome"
+              android:gravity="center_horizontal"
+              android:textSize="18sp" />
+      </RelativeLayout>
+      <RelativeLayout  
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  />
+      <RelativeLayout     
+	  android:layout_width="fill_parent"    
+	  android:layout_height="fill_parent"
+	  />
+	   -->
+      <LinearLayout     
+		  android:layout_width="fill_parent"    
+		  android:layout_height="fill_parent"
+		  android:orientation="vertical"
+	  >
+	  	<RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dip"
+	        android:background="@color/theme_color" >
+	        <ImageView
+	            android:id="@+id/iconMainLogo"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="5dip"
+	            android:background="@drawable/logo" />
+	
+	        <TextView
+	            android:id="@+id/labMainAddress"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_centerVertical="true"
+	            android:text="@string/setting_language"
+	            android:textColor="@color/white"
+	            android:textSize="20sp" />
+	    </RelativeLayout>
+          <RadioGroup
+          	android:id="@+id/welcomeSelLanguage"  
+          	android:layout_width="wrap_content"    
+	  		android:layout_height="wrap_content"
+	  		android:layout_marginTop="30dip"
+	  		android:layout_marginLeft="25dip"
+          >
+              <RadioButton
+                  android:id="@+id/selLanguageZH"
+                  android:text="@string/radio_languageZH_CN"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:checked="true"
+                  android:tag="zh-Hans"
+              />
+              <RadioButton
+                  android:id="@+id/selLanguageZH_CN"
+                  android:text="@string/radio_languageZH"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:tag="zh-Hant"
+              />
+              <RadioButton
+                  android:id="@+id/selLanguageEN"
+                  android:text="@string/radio_languageEN"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:tag="en"
+              />
+          </RadioGroup>
+          <Button
+              android:id="@+id/startBtn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="38dp"
+              android:text="@string/btn_goto_main"
+              android:textSize="18sp"
+              android:layout_marginLeft="8dp"
+			  android:layout_marginRight="8dp"
+			  android:layout_gravity="center_vertical|center_horizontal"
+              />
+      </LinearLayout>
+    </com.stefan.city.ui.layout.REScrollLayout>
+    <LinearLayout 
+    	android:orientation="horizontal" 
+    	android:id="@+id/llayout" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginBottom="24.0dip" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true"
+    	android:visibility="visible">
+        <ImageView android:clickable="true" android:padding="5.0dip" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_indicator_bg" />
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/activity_welcome.xml -->

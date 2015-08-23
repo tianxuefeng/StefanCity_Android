@@ -1,0 +1,303 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "9018号",
+               "short_name" : "9018号",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "北环大道",
+               "short_name" : "北环大道",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "南山区",
+               "short_name" : "南山区",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "深圳",
+               "short_name" : "深圳",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "广东省",
+               "short_name" : "广东省",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "518057",
+               "short_name" : "518057",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "中国广东省深圳市南山区北环大道9018号 邮政编码: 518057",
+         "geometry" : {
+            "location" : {
+               "lat" : 22.553139,
+               "lng" : 113.950449
+            },
+            "location_type" : "ROOFTOP",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5544879802915,
+                  "lng" : 113.9517979802915
+               },
+               "southwest" : {
+                  "lat" : 22.55179001970849,
+                  "lng" : 113.9491000197085
+               }
+            }
+         },
+         "types" : [ "street_address" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "518057",
+               "short_name" : "518057",
+               "types" : [ "postal_code" ]
+            },
+            {
+               "long_name" : "南山区",
+               "short_name" : "南山区",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "深圳",
+               "short_name" : "深圳",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "广东省",
+               "short_name" : "广东省",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "中国广东省深圳市南山区 邮政编码: 518057",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6278981,
+                  "lng" : 113.9536466
+               },
+               "southwest" : {
+                  "lat" : 22.4960638,
+                  "lng" : 113.8465758
+               }
+            },
+            "location" : {
+               "lat" : 22.5471035,
+               "lng" : 113.9452185
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.5635773,
+                  "lng" : 113.9536466
+               },
+               "southwest" : {
+                  "lat" : 22.5209735,
+                  "lng" : 113.9298551
+               }
+            }
+         },
+         "types" : [ "postal_code" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "南山区",
+               "short_name" : "南山区",
+               "types" : [ "sublocality_level_1", "sublocality", "political" ]
+            },
+            {
+               "long_name" : "深圳",
+               "short_name" : "深圳",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "广东省",
+               "short_name" : "广东省",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "中国广东省深圳市南山区",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.6524787,
+                  "lng" : 114.0264211
+               },
+               "southwest" : {
+                  "lat" : 22.4426387,
+                  "lng" : 113.8415763
+               }
+            },
+            "location" : {
+               "lat" : 22.5331,
+               "lng" : 113.930422
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.6524787,
+                  "lng" : 114.0264211
+               },
+               "southwest" : {
+                  "lat" : 22.4426387,
+                  "lng" : 113.8415763
+               }
+            }
+         },
+         "types" : [ "sublocality_level_1", "sublocality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "深圳",
+               "short_name" : "深圳",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "广东省",
+               "short_name" : "广东省",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "中国广东省深圳市",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 22.8617484,
+                  "lng" : 114.6269898
+               },
+               "southwest" : {
+                  "lat" : 22.4458417,
+                  "lng" : 113.7531973
+               }
+            },
+            "location" : {
+               "lat" : 22.543099,
+               "lng" : 114.057868
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 22.7809313,
+                  "lng" : 114.3553162
+               },
+               "southwest" : {
+                  "lat" : 22.3293893,
+                  "lng" : 113.7524414
+               }
+            }
+         },
+         "types" : [ "locality", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "广东省",
+               "short_name" : "广东省",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "中国广东省",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 25.5167714,
+                  "lng" : 117.3180837
+               },
+               "southwest" : {
+                  "lat" : 20.221081,
+                  "lng" : 109.6682981
+               }
+            },
+            "location" : {
+               "lat" : 23.132191,
+               "lng" : 113.266531
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 25.5167714,
+                  "lng" : 117.3180837
+               },
+               "southwest" : {
+                  "lat" : 20.221081,
+                  "lng" : 109.6682981
+               }
+            }
+         },
+         "types" : [ "administrative_area_level_1", "political" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "中国",
+               "short_name" : "CN",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "中国",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 53.56097399999999,
+                  "lng" : 134.77281
+               },
+               "southwest" : {
+                  "lat" : 18.1535216,
+                  "lng" : 73.49941369999999
+               }
+            },
+            "location" : {
+               "lat" : 35.86166,
+               "lng" : 104.195397
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 53.56097399999999,
+                  "lng" : 134.77281
+               },
+               "southwest" : {
+                  "lat" : 18.1539677,
+                  "lng" : 73.49941369999999
+               }
+            }
+         },
+         "types" : [ "country", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

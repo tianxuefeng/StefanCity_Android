@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"
+    android:orientation="vertical" >
+    
+	<ImageView
+	 	android:id="@+id/item_infoIcon"
+	 	android:layout_width="72dip"
+	 	android:layout_height="70dip"
+	 	android:layout_alignParentLeft="true"
+	 	android:layout_centerVertical="true"  
+	 	android:layout_marginRight="5dip" 
+	 	android:background="@drawable/bg_pic_frame_normal"
+	/>
+    <TextView
+     	android:id="@+id/item_infoTitle"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:layout_alignParentTop="true"
+     	android:layout_toLeftOf="@+id/item_infoPrice"
+     	android:layout_toRightOf="@id/item_infoIcon"  
+     	android:text="标题" 
+    />
+    <TextView 
+        android:id="@+id/item_infoPrice"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_alignParentTop="true"
+     	android:layout_alignParentRight="true"  
+     	android:text="$700.00"
+        />
+    <TextView 
+        android:id="@+id/item_infoDesc"
+     	android:layout_width="fill_parent"
+     	android:layout_height="wrap_content"
+     	android:layout_below="@+id/item_infoTitle"
+     	android:maxLines="2"
+     	android:ellipsize="end"
+     	android:layout_toRightOf="@id/item_infoIcon"  
+     	android:text="描述"
+        />
+    <TextView 
+        android:id="@+id/item_infoTime"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_below="@+id/item_infoDesc"
+     	android:layout_alignParentBottom="true"
+     	android:layout_toRightOf="@id/item_infoIcon"  
+     	android:text="2014年4月8日"
+        />
+    <TextView 
+        android:id="@+id/item_infoAddress"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_below="@+id/item_infoDesc"
+     	android:layout_alignParentBottom="true"
+     	android:layout_toRightOf="@+id/item_infoTime"
+     	android:layout_marginLeft="5dip"
+     	android:ellipsize="end"
+     	android:singleLine="true"
+     	android:layout_alignParentRight="true" 
+     	android:text="福州创业街126号"
+        />
+</RelativeLayout>
+<!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/item_main_info.xml -->

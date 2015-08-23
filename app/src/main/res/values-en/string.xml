@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stefan city-wide</string> 
+
+    <!-- title -->
+    <string name="title_welcome">welcome</string>
+    <string name="title_exit">exit</string>
+    <string name="title_delete">delete</string>
+    <string name="title_clear">clear</string>
+    
+    <string name="title_appname">city-wide</string>
+    <string name="title_setting">settings</string>
+    
+    <string name="title_message">message</string>
+    
+    <!-- label txt -->
+    <string name="lab_login">login</string>
+    
+    <string name="lab_sendTime">release time:</string>
+    <string name="lab_time">time:</string>
+    <string name="lab_price">price:</string>
+    <string name="lab_detail">details</string>
+    <string name="lab_send_title">title</string>
+    <string name="lab_send_desc">description</string>
+    <string name="lab_send_price">price</string>
+    <string name="lab_send_price_unit">dollar</string>
+    <string name="lab_send_city">city</string>
+    <string name="lab_send_address">region</string>
+    <string name="lab_send_street">street</string>
+    <string name="lab_send_pay_type">transaction type</string>
+    <string name="lab_send_qq">QQ/Skype</string>
+    <string name="lab_send_username">contact</string>
+    <string name="lab_send_phone">handphone</string>
+    <string name="lab_qq">QQ/Skype</string>
+    <string name="lab_username">contact:</string>
+    <string name="lab_phone">contacts</string>
+    <string name="lab_detail_phone">handphone:</string>
+    <string name="lab_city">city</string>
+    <string name="lab_address">address</string>
+    <string name="lab_message">message</string>
+    
+    <string name="lab_user_info">user info</string>
+    
+    <string name="lab_main_address">region</string>
+    
+    <string name="lab_register_name">name</string>
+    
+    <string name="lab_list_category_all">all category</string>
+    <string name="lab_list_type">type</string>
+    
+    <string name="lab_status">status</string>
+    
+    <string name="lab_email">email</string>
+    <string name="lab_password">password</string>
+    <string name="lab_password2">repeat password</string>
+    <string name="lab_detail_info">details</string>
+    <string name="lab_detail_message">remarks</string>
+    
+    <string name="lab_send_buyers">buyer</string>
+    
+    <string name="lab_send_seller">seller</string>
+    
+    <string name="lab_category_parent_name">parent category</string>
+    <string name="lab_category_name">category name</string>
+    <string name="lab_category_new_name">change category name</string>
+    
+    <string name="lab_send_category">category</string>
+    <string name="lab_category_man">category management</string>
+    <string name="lab_select_category">select category</string>
+    <string name="lab_add_category">add category</string>
+    <string name="lab_edit_category">edit category</string>
+    
+    <string name="lab_user_message">message center</string>
+    <string name="lab_user_send">my upload</string>
+    <string name="lab_user_favorites">my favorites</string>
+    <string name="lab_user_history">browsing history</string>
+    
+    <string name="lab_user_operator">operator</string>
+    
+    <string name="lab_user_score">my credit</string>
+    <string name="lab_category_sequence">cagetory sequence</string>
+    
+    <string name="lab_user_like">Guess You Like</string>
+    <string name="lab_user_search">quick search</string>
+    
+    <string name="lab_user_manage">administration center</string>
+    
+    <string name="lab_gps_location">GPS Location</string>
+    
+    <string name="lab_location_address">locate</string>
+    
+    <string name="lab_location_country">country</string>
+    <string name="lab_location_city">city</string>
+    <string name="lab_location_locality">region</string>
+    <string name="lab_location_region">street</string>
+    
+    <string name="lab_current_user">Current users</string>
+    
+    <string name="lab_select">select</string>
+    
+    <string name="lab_not_info">not info</string>
+    <string name="lab_local_sel_pro">select province</string>
+    <string name="lab_local_sel_area">select region</string>
+    
+    <string name="lab_sel_street">select street</string>
+    
+    <string name="lab_region_parent_name">parent region</string>
+    <string name="lab_region_name">region name</string>
+    
+    <string name="lab_location_not">not yet located</string>
+    <string name="lab_localing">locating...</string>
+    
+    <string name="lab_localing_regex">locate successfully,processing...</string>
+    
+    <string name="lab_location_old">last locating information</string>
+    <string name="lab_local_cur">current location:</string>
+    
+    <string name="lab_user_list">user management</string>
+    <string name="lab_user_memtype_0">blocked</string>
+    
+    <string name="lab_user_memtype_1">normal</string>
+    
+    <string name="lab_user_memtype_2">admin</string>
+    <string name="lab_register">register new user</string>
+    
+    <string name="lab_not">no</string>
+    
+    <string name="lab_click_change_pawd">Click Change Password</string>
+    
+    <string name="lab_detail_reads">heat rate:</string>
+    
+    <string name="lab_detail_msg">I will comment</string>
+    
+    <string name="history_NoInfo">no info,please click re-try</string>
+    <!-- edit hint -->
+    <string name="hint_title">please input title</string>
+    <string name="hint_desc">status,bright spot and so on.Advice above 10 words</string>
+    <string name="hint_sel_city">please select a city</string>
+    <string name="hint_sel_region">please select the area</string>
+    <string name="hint_sel_street">please select the streets</string>
+    <string name="hint_sel_category">please category</string>
+    <string name="hint_username">above 2 words</string>
+    
+    <string name="hint_email">please input your email</string>
+    <string name="hint_password">please input your password</string>
+    <string name="hint_password2">please repeat your password</string>
+    
+    <string name="hint_update_pawd">Not to modify, please do not fill</string>
+    
+    <string name="hint_search">please the city or initials</string>
+    
+    <string name="hint_detail_msg">say something</string>
+    <!-- nav text -->
+    <string name="main_nav_home">home</string>
+    <string name="main_nav_score">credit</string>
+    <string name="main_nav_user">personal center</string>
+    
+    <!-- button txt -->
+    <string name="btn_goto_main">start</string>
+    <string name="btn_sort_merchandise">second-hand transaction</string>
+    <string name="btn_sort_estate">estate</string>
+    <string name="btn_sort_work">job</string>
+    
+    <string name="btn_clear">clear</string>
+    
+    <string name="btn_camera">camera</string>
+    <string name="btn_select_file">choose image</string>
+    
+    <string name="btn_send_addImg">add image</string>
+    <string name="btn_send">publish</string>
+    <string name="btn_add">add</string>
+    
+    <string name="btn_add_region">add region</string>
+    <string name="btn_sendinfo">publish message</string>
+    
+    <string name="btn_submit">submit</string>
+    
+    <string name="btn_send_msg">comment</string>
+    
+    <string name="btn_have_an_account">have an account</string>
+    <string name="btn_back">back</string>
+    <string name="btn_detail">detail</string>
+    <string name="btn_favorites">favorites</string>
+    
+    <string name="btn_back_locat">select city</string>
+    
+    <string name="btn_select_region">region</string>
+    
+    <string name="btn_select_street">select street</string>
+    
+    <string name="btn_user_restrict">shielding the user</string>
+    
+    <string name="btn_delete_info">delete info</string>
+    
+    <string name="btn_login">use login</string>
+    
+    <string name="btn_edit">edit</string>
+    
+    <string name="btn_register">register</string>
+    <string name="btn_logout">logout</string>
+    <string name="btn_loging">loging...</string>
+    
+    <string name="btn_register_signin">registering...</string>
+    
+    <string name="btn_loading">loding...</string>
+    
+    <string name="btnOK">OK</string>
+    <string name="btnNO">cancel</string>
+    
+    <string name="btn_search">search</string>
+    
+    <string name="btn_location_welcome">welcome</string>
+    
+    <string name="btn_location">locate</string>
+    <!-- radio txt -->
+    <string name="radio_languageZH_CN">简体中文</string>
+    <string name="radio_languageZH">繁體中文</string>
+    <string name="radio_languageEN">English</string>
+    <!-- msg string -->
+
+    <string name="msg_exit">Are you sure to exit?</string>
+    <string name="msg_delete">Are you sure to delete?</string>
+    
+    <string name="msg_send_success_to_msg">whether to continue？</string>
+    <string name="msg_not_login">please login first</string>
+    
+    <string name="msg_add_favorite_success">add to favorites successfully</string>
+    <string name="msg_clear">Are you sure to clear?</string>
+    
+    <string name="msg_history_info_error">Information is invalid！</string>
+    
+    <string name="msg_not_net">please check the network connection</string>
+    
+    <string name="msg_init_not_net">Server response timeout, Retry?</string>
+    
+    <string name="msg_login_error">fail to login,please check the user name and password</string>
+    <string name="msg_login_success">login successfully</string>
+    
+    <string name="msg_cur_user_nonmaskable">The current user nonmaskable</string>
+    
+    <string name="msg_net_notinfo">fail to retrieve data,please check the network connection</string>
+    
+    <string name="msg_send_not_msg">please input comment content</string>
+    <string name="msg_send_msg_success">comment successfully</string>
+    <string name="msg_send_msg_error">fail to comment</string>
+    
+    <string name="msg_select_file">please select image</string>
+    
+    <string name="msg_send_not_title">title can not be empty</string>
+    <string name="msg_send_title_too_short">The title is too short</string>
+    <string name="msg_send_not_desc">please input description</string>
+    
+    <string name="msg_send_desc_too_short">The description is too short, At least 10 words</string>
+    
+    <string name="msg_send_not_price">please input price</string>
+    <string name="msg_send_not_address">please select region</string>
+    <string name="msg_send_not_username">please input contact</string>
+    <string name="msg_send_not_name">please input name</string>
+    <string name="msg_send_not_phone">please input your handphone number</string>
+    <string name="msg_send_not_qq">please input your QQ/Skype</string>
+    <string name="msg_send_not_category">please select category</string>
+    
+    <string name="msg_not_region_name">please select region</string>
+    
+    <string name="msg_not_streer_info">the area no street information</string>
+    <string name="msg_not_category_name">please input category name</string>
+    <string name="msg_not_sequence">please input display sequence</string>
+    
+    <string name="msg_change_not_old_pawd">Please enter your old password</string>
+    <string name="msg_change_not_new_pawd">Please enter your new password</string>
+    
+    <string name="msg_login_not_email">please input login email</string>
+    <string name="msg_login_not_pawd">please input password</string>
+    <string name="msg_login_not_pawd2">please repeat password</string>
+    
+    <string name="msg_clear_cache">Are you sure to clear the cache?Clearing cache you may get more storage,but will consume more cellular data on next launching.</string>
+    
+    <string name="msg_clear_temp">Are you sure to clear the provisional files?</string>
+    
+    <string name="msg_edit_success">edit successfully</string>
+    <string name="msg_edit_error">fail to edit</string>
+    
+    <string name="msg_add_success">add successfully</string>
+    <string name="msg_add_error">fail to add</string>
+    
+    <string name="msg_upload_img_error">fail to upload the image</string>
+    
+    <string name="msg_clear_success">clear successfully</string>
+    <string name="msg_clear_error">fail to clear</string>
+    
+    <string name="msg_keyword_is_not_null">Search keywords cannot be empty</string>
+    
+    <string name="msg_register_not_pawd_error">The two passwords differ</string>
+    
+    <string name="msg_register_success">register successfully</string>
+    <string name="msg_register_success_login_error">Register successfully！Fail to auto login,please login manually</string>
+    <string name="msg_register_error">fail to register!please check the infomation you entered</string>
+    
+    <string name="msg_send_success">publish successfully</string>
+    <string name="msg_send_error">fail to publish</string>
+    
+    <string name="msg_send_user_blocked">the current user is blocked, prohibits the publication of information</string>
+    <string name="msg_login_check_email">email format is incorrect</string>
+    
+    <string name="msg_city_select_city_error">fail to locate or not yet located, you may select your city directly</string>
+    
+    <string name="msg_loading_error_reset">fail to locate,please click re-try</string>
+    
+    <string name="msg_local_success">locate successfully</string>
+    <string name="msg_local_gps_isclose">GPS is not turned</string>
+    <string name="msg_local_click">locating...If it takes long time even time out,please select region directly</string>
+    <string name="msg_local_error">fail to locate,please click re-try</string>
+    <string name="msg_local_error2">fail to locate,please select manually</string>
+    
+    <string name="msg_category_error">fail to load category</string>
+    <string name="msg_category_delete_error">fail to delete,please delete the sub-categories</string>
+    
+    <string name="msg_LoadMore">loade more</string>
+    <string name="msg_Load">loading&#8230;</string>
+    <string name="msg_LoasLast">load to end</string>
+    
+    <string name="msg_operate_authority_lacking">insufficient permissions</string>
+    
+    <string name="msg_operate_error">operation failed</string>
+    
+    <string name="msg_operate_success">operation success</string>
+    
+    <string name="msg_the_next_version">More exciting, please look forward to the next version……</string>
+    
+    <string name="storage_unavailable">SD card is not available,please check your SD card</string>
+    <string name="error">error</string>
+    <string name="file_renamed">file \'%1$s\' existed, please rename \'%2$s\' </string>
+    
+    <string name="msg_hasAdmin_text">
+        There is still no administrator in this city, would you like to register as an adninistrator?\n
+		Administrator privileges:\n
+		1) Control all users\' accounts and rights. If you are not satisfied with any user/s you band him/her.\n
+		2) You control all messages, you are able to delete any message/s at will.\n
+		3) You are able to control the distribution and allocation citywide. Make changes at will\n
+		4) if any area under your control reach 100 users and more please inform us, and wait to receive monetary reward!\n
+		
+		Responsibility of Area administrator...\n
+		1) Organize your city and suburbs.\n
+		2) Occasionally check on the postings and messages by your area users. Do house keeping - delete incomplete messages and postings.\n
+    </string>
+    <string name="msg_user_bock">determining blocked \'%1$s\' User?</string>
+    <string name="msg_user_unbock">Lift the shield \'%1$s\' User?</string>
+    <!-- setting -->
+    <string name="setting_prompt_on">Open\sFunction</string>
+    <string name="setting_prompt_off">Close\sFunction</string>
+    <string name="setting_clear_history">Empty History</string>
+    <string name="setting_clear_cache">Clear Cache</string>
+    <string name="setting_clear_temp">Clear temporary data</string>
+    
+    <!-- language -->
+    <string name="setting_language">Select your language</string>
+    <string name="country_china">China</string>
+    
+    <!-- hint -->
+    <string name="search_hit">Enter keywords to search</string>
+</resources>

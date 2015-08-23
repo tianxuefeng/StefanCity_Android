@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="#516574" />
+    <item android:state_pressed="true" android:color="#516574" />
+    <item android:state_focused="true" android:color="#516574" />
+    <item android:color="#57aeef"/>
+</selector> <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/drawable/selector_tabtext.xml -->

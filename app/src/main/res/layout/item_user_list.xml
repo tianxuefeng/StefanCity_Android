@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="10dip"
+    >
+
+    <TextView
+        android:id="@+id/item_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="5.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_toLeftOf="@+id/item_user_current"
+        android:paddingBottom="5dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:text="name"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#212121" />
+
+    <TextView
+        android:id="@+id/item_user_current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/item_user_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        android:singleLine="true"
+        android:text="number"
+        android:textSize="16sp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AAAAAA"
+        />
+	<TextView
+        android:id="@+id/item_user_memtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_user_current"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dip"
+        android:singleLine="true"
+        android:text="正常"
+        android:textColor="@color/font_960"
+        android:textSize="16sp"
+        android:textAppearance="?android:textAppearanceSmall"
+        />
+</RelativeLayout>

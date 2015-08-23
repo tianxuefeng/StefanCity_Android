@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.stefan.city"
+    android:versionCode="2"
+    android:versionName="1.2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+	
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/StyledIndicators" >
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+	    <!-- 友盟统计 -->
+		<meta-data android:value="5487afddfd98c55a48000367" android:name="UMENG_APPKEY" />
+		<meta-data android:value="Umeng" android:name="UMENG_CHANNEL"/>
+         <!-- meta-data百度定位需要写在application中 -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="PDj7w8Gp7wR89Nmx1yNMdxaS" />
+        <activity
+            android:name="com.stefan.city.InitActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.stefan.city.SendSortActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.InfoListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.SearchActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.SendActivity" android:launchMode="singleTask" android:configChanges="orientation|keyboardHidden" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.WelcomeActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.DetailActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.LocalActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.UserSendListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.HistoryActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.RegisterActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.FavoriteActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.SendCategoryActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.SendCategoryChildActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.CitySelectActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.SettingActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.LoginActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.CategoryManActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.CategoryAddActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.CategoryEditActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.TakePhotoActivity" android:screenOrientation="landscape" />
+   
+        <activity android:name="com.stefan.city.PhotoActivity" android:launchMode="singleTask" />
+        
+        <activity android:name="com.stefan.city.GPSLocationActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.RegionListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.RegionStreetActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.CityListActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <activity android:name="com.stefan.city.UserManageActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:name="com.stefan.city.UserDetailActivity" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        
+        <!-- 声明AdMob的Activity和谷歌服务 -->
+        <!-- GoogleServiceAdMob -->
+        <meta-data android:name="com.google.android.gms.version"
+               android:value="@integer/google_play_services_version"/> <!-- 注意 5077000 为Googleservice的版本号，需要和Googleservice的版本对应使用 -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+        
+        <!-- 芒果聚合 -->
+       	<activity
+            android:name="com.adsmogo.adview.AdsMogoWebView"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard|keyboardHidden">
+        </activity>
+         <!-- 注册Service，应用下载所需 -->
+        <service
+            android:name="com.adsmogo.controller.service.UpdateService"
+            android:exported="true"
+            android:process=":remote" />
+        <!-- 注册Service，应用被安装所用 -->
+        <service
+            android:name="com.adsmogo.controller.service.CountService"
+            android:exported="true"
+            android:process=":remote" />
+        
+        <!-- 有米广告 -->
+        <service android:name="net.youmi.android.BoService" >
+        </service>
+
+        <activity
+            android:name="net.youmi.android.BoBrowser"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <!-- com.google.android.gms.internal.v$b.a(Unknown Source)
+        <activity
+		    android:name="net.youmi.android.AdBrowser"
+		    android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+		    android:theme="@android:style/Theme.Light.NoTitleBar" >
+		</activity>
+		<service
+		    android:name="net.youmi.android.AdService"
+		    android:exported="false" >
+		</service>
+		<receiver
+		    android:name="net.youmi.android.AdReceiver" >
+		    <intent-filter>
+		        <action android:name="android.intent.action.PACKAGE_ADDED" />
+		        <data android:scheme="package" />
+		    </intent-filter>
+		</receiver>
+		<provider
+		    android:name="net.youmi.android.spot.SpotAdContentProvider"
+		    android:authorities="com.stefan.city"/>
+		     -->
+		     
+		<meta-data
+            android:name="ADMOGO_KEY"
+            android:value="db09b4c3632f45ee87ec22b1e62369c3" />
+    </application>
+	<!-- uuid E62F9C702942E7C589AA7A696720ED35619B54E3 -->
+	<!-- uuid e159cba9f1a8d935bc49d1f5008fea77a678076d -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	
+	<uses-permission android:name="android.permission.PERMISSION_NAME" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	
+	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+	<uses-permission android:name="android.permission.GET_TASKS" />
+	<!-- 定位 -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+	<!-- 在SDCard中创建与删除文件权限 --> 
+	<!-- 往SDCard写入数据权限 --> 
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ 	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+ 	
+ 	
+</manifest>

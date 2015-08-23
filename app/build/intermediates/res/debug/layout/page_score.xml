@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/theme_color" >
+
+        <ImageView
+            android:id="@+id/iconMainLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/labMainAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/main_nav_score"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+    <TextView
+     	android:layout_width="match_parent"
+     	android:layout_height="match_parent"
+     	android:gravity="center_vertical|center_horizontal"
+     	android:textColor="#bbbbbb"
+     	android:padding="10dip"
+     	android:textSize="28sp"
+     	android:text="@string/msg_the_next_version"   
+    />
+</LinearLayout>
+<!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/page_score.xml -->

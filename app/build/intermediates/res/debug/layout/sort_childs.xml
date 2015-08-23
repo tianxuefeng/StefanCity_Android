@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+	<com.rockeagle.framework.view.REGridView
+        android:id="@+id/sortChildsGridView"
+        android:layout_width="fill_parent"
+        android:listSelector="@drawable/listview_selector"
+        android:numColumns="3"
+        android:horizontalSpacing="10dip"
+        android:verticalSpacing="10dip"
+        android:gravity="center"
+        android:layout_marginTop="15dip"
+    	android:layout_marginBottom="15dip"
+        android:layout_height="wrap_content" >
+    </com.rockeagle.framework.view.REGridView>
+</LinearLayout><!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/sort_childs.xml -->

@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/string_array.xml -->
+    <eat-comment/>
+    <string-array name="array_list_category">
+        <item>新增子类</item>
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="array_list_category2">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="array_list_city">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    <string-array name="array_list_language">
+        <item>中文</item>
+        <item>中文繁體</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="array_list_region">
+        <item>编辑</item>
+        <item>删除</item>
+        <item>子区域</item>
+    </string-array>
+    <string-array name="array_list_type">
+        <item>求</item>
+        <item>供</item>
+    </string-array>
+    <string-array name="array_phone_control">
+        <item>打电话</item>
+        <item>发短信</item>
+    </string-array>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__attrs.xml -->
+    <eat-comment/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="bg_fb">#fffbfbfb</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="color_999">#FF999999</color>
+    <color name="color_aaa">#FFAAAAAA</color>
+    <color name="color_abc">#FFAABBCC</color>
+    <color name="color_ccc">#FFCCCCCC</color>
+    <color name="color_ddd">#FFdddddd</color>
+    <color name="color_eee">#FFeeeeee</color>
+    <color name="color_transparent">#00000000</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="font_333">#FF333333</color>
+    <color name="font_666">#FF666666</color>
+    <color name="font_960">#FF996600</color>
+    <color name="font_addressTit">#FFafc9e1</color>
+    <color name="font_nav_default">#FF666666</color>
+    <color name="font_nav_selected">#FFffffff</color>
+    <color name="green">#FF00FF00</color>
+    <color name="red">#FFFF0000</color>
+    <color name="theme_color">#FFae0002</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__colors.xml -->
+    <eat-comment/>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_colors.xml -->
+    <eat-comment/>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="white">#FFFFFFFF</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CustomWalletTheme"><attr format="enum" name="windowTransitionStyle"><enum name="slide" value="1"/><enum name="none" value="2"/></attr></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle"><enum name="none" value="0"/><enum name="triangle" value="1"/><enum name="underline" value="2"/></attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition"><enum name="bottom" value="0"/><enum name="top" value="1"/></attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__defaults.xml -->
+    <eat-comment/>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">7095000</integer>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="admob_id">ca-app-pub-6517688968687309/9650426072</string>
+    <string name="app_name">Stefan同城</string>
+    <string name="btnNO">取消</string>
+    <string name="btnOK">确定</string>
+    <string name="btn_add">新增</string>
+    <string name="btn_add_region">新增地区</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_back_locat">城市</string>
+    <string name="btn_camera">拍摄照片</string>
+    <string name="btn_clear">清空</string>
+    <string name="btn_delete_info">删除信息</string>
+    <string name="btn_detail">详情</string>
+    <string name="btn_edit">修改</string>
+    <string name="btn_favorites">收藏</string>
+    <string name="btn_goto_main">开始</string>
+    <string name="btn_have_an_account">已有账号</string>
+    <string name="btn_loading">加载中...</string>
+    <string name="btn_location">定位</string>
+    <string name="btn_location_welcome">欢迎使用</string>
+    <string name="btn_login">用户登陆</string>
+    <string name="btn_loging">登陆中...</string>
+    <string name="btn_logout">退出登陆</string>
+    <string name="btn_register">注册</string>
+    <string name="btn_register_signin">正在注册中...</string>
+    <string name="btn_search">搜索</string>
+    <string name="btn_select_file">选择图片</string>
+    <string name="btn_select_region">地区</string>
+    <string name="btn_select_street">选择街道</string>
+    <string name="btn_send">发布</string>
+    <string name="btn_send_addImg">添加图片</string>
+    <string name="btn_send_msg">评论</string>
+    <string name="btn_sendinfo">发布信息</string>
+    <string name="btn_sort_estate">房    产</string>
+    <string name="btn_sort_merchandise">二手交易</string>
+    <string name="btn_sort_work">工    作</string>
+    <string name="btn_submit">提  交</string>
+    <string name="btn_user_restrict">屏蔽该用户</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="commono_google_play_services_api_unavailable_text">This app requires one or more Google Play services that are not currently
+available. Please contact the developer for assistance.</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="country_china">中国</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="decline">Decline</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="error">错误</string>
+    <string name="file_renamed">文件 \'%1$s\' 已存在, 请另命名 \'%2$s\' </string>
+    <string name="hint_desc">状况、亮点等，建议10字以上</string>
+    <string name="hint_detail_msg">说些什么呢</string>
+    <string name="hint_email">请输入您的邮箱</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_password2">请再次输入密码</string>
+    <string name="hint_search">请输入城市名称或者首写字母</string>
+    <string name="hint_sel_category">请选择分类</string>
+    <string name="hint_sel_city">请选择城市</string>
+    <string name="hint_sel_region">请选择区域</string>
+    <string name="hint_sel_street">请选择街道，没有请留空</string>
+    <string name="hint_title">请输入标题</string>
+    <string name="hint_update_pawd">如不修改请留空</string>
+    <string name="hint_username">至少2字</string>
+    <string name="history_NoInfo">尚无信息，点击可重试</string>
+    <string name="lab_add_category">新增分类</string>
+    <string name="lab_address">地址</string>
+    <string name="lab_category_man">分类管理</string>
+    <string name="lab_category_name">分类名称</string>
+    <string name="lab_category_new_name">更改名称</string>
+    <string name="lab_category_parent_name">上级分类</string>
+    <string name="lab_category_sequence">分类顺序</string>
+    <string name="lab_category_type_0">有价格</string>
+    <string name="lab_category_type_1">无价格</string>
+    <string name="lab_city">城市</string>
+    <string name="lab_click_change_pawd">点击修改密码</string>
+    <string name="lab_current_user">当前用户</string>
+    <string name="lab_detail">详 细</string>
+    <string name="lab_detail_info">详细信息</string>
+    <string name="lab_detail_message">评  论</string>
+    <string name="lab_detail_msg">我要评论</string>
+    <string name="lab_detail_phone">手机：</string>
+    <string name="lab_detail_reads">热度：</string>
+    <string name="lab_edit_category">编辑分类</string>
+    <string name="lab_email">邮  箱</string>
+    <string name="lab_gps_location">GPS定位</string>
+    <string name="lab_list_category_all">全部分类</string>
+    <string name="lab_list_type">类型</string>
+    <string name="lab_local_cur">当前位置：</string>
+    <string name="lab_local_sel_area">选择地区</string>
+    <string name="lab_local_sel_pro">选择省份</string>
+    <string name="lab_localing">正在定位中...</string>
+    <string name="lab_localing_regex">定位成功，解析中...</string>
+    <string name="lab_location_address">城市定位</string>
+    <string name="lab_location_city">城市</string>
+    <string name="lab_location_country">国家</string>
+    <string name="lab_location_locality">地区</string>
+    <string name="lab_location_not">尚未定位</string>
+    <string name="lab_location_old">上次的定位信息：</string>
+    <string name="lab_location_region">街道</string>
+    <string name="lab_login">登陆</string>
+    <string name="lab_main_address">区域</string>
+    <string name="lab_message">留言信息</string>
+    <string name="lab_new_pawd">新密码</string>
+    <string name="lab_not">无</string>
+    <string name="lab_not_info">没有信息</string>
+    <string name="lab_old_pawd">旧密码</string>
+    <string name="lab_password">密  码</string>
+    <string name="lab_password2">重复密码</string>
+    <string name="lab_phone">联系方式</string>
+    <string name="lab_price">价格：</string>
+    <string name="lab_qq">QQ/Skype</string>
+    <string name="lab_region_name">地区名称</string>
+    <string name="lab_region_parent_name">上级地区</string>
+    <string name="lab_register">注册新用户</string>
+    <string name="lab_register_name">姓  名</string>
+    <string name="lab_sel_street">选择街道</string>
+    <string name="lab_select">选择</string>
+    <string name="lab_select_category">选择分类</string>
+    <string name="lab_sendTime">发布时间：</string>
+    <string name="lab_send_address">区  域</string>
+    <string name="lab_send_buyers">求</string>
+    <string name="lab_send_category">分类</string>
+    <string name="lab_send_city">城  市</string>
+    <string name="lab_send_desc">描  述</string>
+    <string name="lab_send_pay_type">交易类型</string>
+    <string name="lab_send_phone">手 机</string>
+    <string name="lab_send_price">价  格</string>
+    <string name="lab_send_price_unit">元</string>
+    <string name="lab_send_qq">QQ/Skype</string>
+    <string name="lab_send_seller">供</string>
+    <string name="lab_send_street">街  道</string>
+    <string name="lab_send_title">标  题</string>
+    <string name="lab_send_username">联系人</string>
+    <string name="lab_status">状态</string>
+    <string name="lab_time">时间：</string>
+    <string name="lab_user_favorites">我的收藏</string>
+    <string name="lab_user_history">浏览记录</string>
+    <string name="lab_user_info">用户信息</string>
+    <string name="lab_user_like">猜你喜欢</string>
+    <string name="lab_user_list">用户管理</string>
+    <string name="lab_user_manage">管理中心</string>
+    <string name="lab_user_memtype_0">已屏蔽</string>
+    <string name="lab_user_memtype_1">正常</string>
+    <string name="lab_user_memtype_2">管理员</string>
+    <string name="lab_user_message">消息中心</string>
+    <string name="lab_user_operator">操作人</string>
+    <string name="lab_user_score">我的积分</string>
+    <string name="lab_user_search">快捷搜索</string>
+    <string name="lab_user_send">我的发布</string>
+    <string name="lab_username">联系人：</string>
+    <string name="main_nav_home">首页</string>
+    <string name="main_nav_score">积分</string>
+    <string name="main_nav_user">个人中心</string>
+    <string name="msg_Load">加载中…</string>
+    <string name="msg_LoadMore">查看更多</string>
+    <string name="msg_LoasLast">已加载到最后</string>
+    <string name="msg_add_error">添加失败</string>
+    <string name="msg_add_favorite_success">收藏成功！</string>
+    <string name="msg_add_success">添加成功</string>
+    <string name="msg_category_delete_error">删除失败，请先删除该分类下的子类！</string>
+    <string name="msg_category_error">分类数据加载失败</string>
+    <string name="msg_change_not_new_pawd">请输入新密码</string>
+    <string name="msg_change_not_old_pawd">请输入旧密码</string>
+    <string name="msg_city_select_city_error">定位失败或者尚未定位，可以直接选择所属城市</string>
+    <string name="msg_clear">确定清空信息吗！</string>
+    <string name="msg_clear_cache">确定清除缓存信息吗? 清除缓存有利于手机空间，但在下次启动的时候，会增加流量的消耗</string>
+    <string name="msg_clear_error">清理失败</string>
+    <string name="msg_clear_success">清理成功</string>
+    <string name="msg_clear_temp">确定清除临时文件吗？</string>
+    <string name="msg_cur_user_nonmaskable">当前用户不可屏蔽</string>
+    <string name="msg_delete">确定删除吗？</string>
+    <string name="msg_edit_error">编辑失败</string>
+    <string name="msg_edit_success">编辑成功</string>
+    <string name="msg_exit">确定退出吗？</string>
+    <string name="msg_hasAdmin_text">
+		您是本城市的第一个用户，是否注册成为本地区的管理员？\n
+		管理员特权：\n
+		1. 掌控本城市所有用户的“生死大权”，对恶意用户可以屏蔽他／她。\n
+		2. 掌控本城市所有信息，对“看不顺眼”的信息可以删除。\n
+		3. 可以随意设定本城市的子区域，整个城市就什么样就掌握在你手啦。\n
+		3. 本地区用户达到100及以上可以向本公司申请广告费，坐在家里收钱不是梦。\n
+		
+		管理员职责：\n
+		1. 规划本城市的区域。\n
+		2. 不定时的查看本地信息，不完整的信息、垃圾信息要及时采取措施。\n
+    </string>
+    <string name="msg_history_info_error">信息已失效！</string>
+    <string name="msg_init_not_net">服务器响应超时，是否重试？</string>
+    <string name="msg_keyword_is_not_null">搜索的关键字不能为空</string>
+    <string name="msg_loading_error_reset">加载失败，点击重试</string>
+    <string name="msg_local_click">正在定位中，如果定位时间过长或者超时，请直接选择地区</string>
+    <string name="msg_local_error">定位失败，点击重试</string>
+    <string name="msg_local_error2">定位失败，请手动选择</string>
+    <string name="msg_local_gps_isclose">GPS未打开</string>
+    <string name="msg_local_success">定位成功</string>
+    <string name="msg_login_check_email">邮箱格式不正确</string>
+    <string name="msg_login_error">登陆失败，请检查账号密码是否正确</string>
+    <string name="msg_login_not_email">请输入登陆邮箱</string>
+    <string name="msg_login_not_pawd">请输入密码</string>
+    <string name="msg_login_not_pawd2">请重复输入密码</string>
+    <string name="msg_login_success">登陆成功</string>
+    <string name="msg_net_notinfo">数据获取失败，请检查网络连接</string>
+    <string name="msg_not_category_name">请输入分类名称</string>
+    <string name="msg_not_login">请先登录</string>
+    <string name="msg_not_net">请检查网络状态</string>
+    <string name="msg_not_region_name">地区不能为空</string>
+    <string name="msg_not_sequence">请输入显示顺序</string>
+    <string name="msg_not_streer_info">该地区下面暂无街道信息</string>
+    <string name="msg_operate_authority_lacking">权限不足</string>
+    <string name="msg_operate_error">操作失败</string>
+    <string name="msg_operate_success">操作成功</string>
+    <string name="msg_register_error">注册失败！请检查输入信息是否正确</string>
+    <string name="msg_register_not_pawd_error">两次输入的密码不一致</string>
+    <string name="msg_register_success">注册成功！</string>
+    <string name="msg_register_success_login_error">注册成功！自动登陆失败，请手动登陆</string>
+    <string name="msg_select_file">请选择图片</string>
+    <string name="msg_send_desc_too_short">描述太短，至少10个字</string>
+    <string name="msg_send_error">发布失败</string>
+    <string name="msg_send_msg_error">评论失败</string>
+    <string name="msg_send_msg_success">评论成功</string>
+    <string name="msg_send_not_address">请选择区域</string>
+    <string name="msg_send_not_category">请选择分类</string>
+    <string name="msg_send_not_desc">请输入描述</string>
+    <string name="msg_send_not_msg">请输入评论内容</string>
+    <string name="msg_send_not_name">请输入名称</string>
+    <string name="msg_send_not_phone">请输入手机号码</string>
+    <string name="msg_send_not_price">请输入价格</string>
+    <string name="msg_send_not_qq">请输入QQ/Skype</string>
+    <string name="msg_send_not_title">标题不能为空</string>
+    <string name="msg_send_not_username">请输入联系人</string>
+    <string name="msg_send_success">发布成功</string>
+    <string name="msg_send_success_to_msg">是否继续发布信息？</string>
+    <string name="msg_send_title_too_short">标题太短</string>
+    <string name="msg_send_user_blocked">当前用户已被屏蔽，限制发布信息</string>
+    <string name="msg_the_next_version">更多精彩，请期待下一个版本……</string>
+    <string name="msg_upload_img_error">图片上传失败</string>
+    <string name="msg_user_bock">确定屏蔽\'%1$s\' 用户吗？</string>
+    <string name="msg_user_unbock">解除屏蔽 \'%1$s\' 用户吗？</string>
+    <string name="radio_languageEN">English</string>
+    <string name="radio_languageZH">繁體中文</string>
+    <string name="radio_languageZH_CN">简体中文</string>
+    <string name="search_hit">输入关键字进行搜索</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_clear_history">清空浏览记录</string>
+    <string name="setting_clear_temp">清除临时数据</string>
+    <string name="setting_language">选择语言</string>
+    <string name="setting_prompt_off">关闭\s功能</string>
+    <string name="setting_prompt_on">开启\s功能</string>
+    <string name="storage_unavailable">SD卡不能使用，请检查SD卡</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="title_appname">同城</string>
+    <string name="title_clear">清空</string>
+    <string name="title_delete">删除</string>
+    <string name="title_exit">退出</string>
+    <string name="title_message">提示</string>
+    <string name="title_setting">设置</string>
+    <string name="title_welcome">欢迎界面</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_strings.xml -->
+    <eat-comment/>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">#00000000</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFFFFFFF</item>
+        <item name="android:background">#00000000</item>
+        <item name="fadeLength">1500</item>
+        <item name="fadeDelay">1500</item>
+    </style>
+    <style name="REButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="REEditView" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="RETextView" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/res/values/wallet_styles.xml -->
+    <eat-comment/>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/vpi__styles.xml -->
+    <eat-comment/>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dip</item>
+        <item name="android:paddingBottom">12dip</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="editSendStyle" parent="REEditView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font_333</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="mainSortButtonStyle" parent="REButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_sort_item</item>
+    </style>
+    <style name="reNavRadioButton" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/font_nav_default</item>
+    </style>
+    <style name="txtAddressStyle" parent="RETextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    <style name="txtSendStyle" parent="RETextView">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/font_333</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:minWidth">90dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawableRight">@drawable/line_vertical</item>
+    </style>
+</resources>

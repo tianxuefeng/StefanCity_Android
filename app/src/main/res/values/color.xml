@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    
+    <color name="theme_color">#FFae0002</color>
+    
+    <color name="font_333">#FF333333</color>
+    <color name="font_666">#FF666666</color>
+    <color name="font_960">#FF996600</color>
+    <color name="color_999">#FF999999</color>
+    
+    
+    
+    <color name="color_aaa">#FFAAAAAA</color>
+    <color name="color_abc">#FFAABBCC</color>
+    <color name="color_ccc">#FFCCCCCC</color>
+    <color name="color_ddd">#FFdddddd</color>
+    <color name="color_eee">#FFeeeeee</color>
+    
+    <color name="font_nav_default">#FF666666</color>
+    <color name="font_nav_selected">#FFffffff</color>
+    
+    <!-- Bg Color -->
+    <color name="bg_fb">#fffbfbfb</color>
+    <color name="font_addressTit">#FFafc9e1</color>
+    
+    <color name="color_transparent">#00000000</color>
+</resources>

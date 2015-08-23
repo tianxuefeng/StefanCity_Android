@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:background="@color/theme_color" 
+		android:orientation="horizontal"
+		android:gravity="center_vertical|center_horizontal"
+	>
+	    <TextView
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	style="@style/txtAddressStyle"
+	     	android:singleLine="true"
+	     	android:textSize="22sp"
+	     	android:text="@string/lab_local_sel_area"
+	    />
+	</LinearLayout>
+    <!-- 当前位置 -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        >
+        <TextView
+         	android:id="@+id/lab_city_curLocal"   
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	style="@style/txtAddressStyle"
+         	android:textColor="@color/color_999"
+         	android:text="@string/lab_local_cur"
+         	android:textSize="18sp"
+         	android:gravity="left"
+        />
+        <TextView
+         	android:id="@+id/txt_city_curLocal"   
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	style="@style/txtAddressStyle"
+         	android:ellipsize="end"
+         	android:singleLine="true"
+         	android:textColor="@color/font_666"
+         	android:layout_toRightOf="@+id/lab_city_curLocal"
+         	android:text="@string/lab_localing"
+         	android:textSize="18sp"
+         	android:gravity="left"
+        />
+        <Button
+	        android:id="@+id/btn_city_sel_cur"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+			android:textColor="@color/white"
+			android:layout_marginRight="5dip"
+			android:layout_alignParentRight="true"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="6dip"
+			android:paddingBottom="6dip"
+			android:background="@drawable/btn_red_selector"
+	        android:text="@string/btnOK" />
+        <!-- 所在地区 -->
+		<LinearLayout
+	        android:id="@+id/layout_user_register"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/lab_city_curLocal"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+	        android:layout_marginTop="5dip"
+	        android:background="@drawable/layoutbg1"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:orientation="vertical" >
+		    <!-- 联系人 -->
+			    <RelativeLayout
+			    	android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:layout_marginTop="5dip"
+			    	android:layout_marginBottom="5dip"
+			    	android:orientation="horizontal"
+			    	android:gravity="center_vertical"
+			    >
+			        <TextView
+			            android:id="@+id/lab_cityLocalCity"
+			        	android:layout_width="wrap_content"
+			        	android:layout_height="wrap_content"
+			        	android:layout_alignParentLeft="true"
+			        	android:text="@string/lab_city"
+			        	style="@style/txtSendStyle"
+			        />
+			        <TextView
+			            android:id="@+id/edit_cityLocalCity"
+			         	android:layout_width="fill_parent"
+			         	android:layout_height="wrap_content"
+			         	android:layout_toRightOf="@+id/lab_cityLocalCity"
+			         	style="@style/editSendStyle"
+			        />
+			    </RelativeLayout>
+			<ImageView
+	            android:layout_width="fill_parent"
+	            android:layout_height="1dip"
+	            android:layout_gravity="center_horizontal"
+	            android:layout_marginLeft="5dip"
+	            android:layout_marginRight="5dip"
+	            android:background="@drawable/div_line" />
+			    <!-- 地区 -->
+	        <RelativeLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="5dip"
+	            android:layout_marginTop="5dip"
+	            android:gravity="center_vertical"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                android:id="@+id/lab_cityLocalArea"
+	                style="@style/txtSendStyle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_alignParentLeft="true"
+	                android:text="@string/lab_main_address" />
+	
+	            <TextView
+	                android:id="@+id/edit_cityLocalArea"
+	                style="@style/editSendStyle"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_toRightOf="@+id/lab_cityLocalArea"
+	                 />
+	        </RelativeLayout>
+		</LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip"
+		android:layout_marginLeft="5dip"
+		android:layout_marginRight="5dip"
+		android:background="@color/bg_fb"
+        >
+        <Button
+	        android:id="@+id/btn_city_search"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+			android:textColor="@color/white"
+			android:layout_marginRight="5dip"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="6dip"
+			android:paddingBottom="6dip"
+			android:background="@drawable/btn_red_selector"
+	        android:text="@string/btn_search" />
+        <EditText
+	        android:id="@+id/txt_city_search"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:layout_marginTop="10dip"
+	        android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+			android:layout_toLeftOf="@+id/btn_city_search"
+			android:background="@null"
+	        android:hint="@string/hint_search" />
+        <TextView
+            android:id="@+id/lab_city_msg_line"
+         	android:layout_width="fill_parent"
+         	android:layout_height="1dip"   
+         	android:layout_marginTop="5dip"
+         	android:layout_marginLeft="5dip"
+         	android:layout_marginRight="5dip"
+         	android:layout_centerHorizontal="true"
+         	android:layout_below="@+id/txt_city_search"
+         	android:layout_toLeftOf="@+id/btn_city_search"
+         	android:background="@color/theme_color"
+        />
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+
+        <RelativeLayout
+            android:id="@+id/city_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/city_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#E8E8E8"
+                android:cacheColorHint="#00000000"
+                android:scrollbars="none" />
+
+            <com.stefan.city.ui.RELetterListView
+                android:id="@+id/cityLetterListView"
+                android:layout_width="30dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:background="#40000000" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/city_overlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:maxWidth="80dp"
+            android:minWidth="80dp"
+            android:text=""
+            android:textColor="#3399ff"
+            android:textSize="70sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</LinearLayout>

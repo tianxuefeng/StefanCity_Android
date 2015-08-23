@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_list_type">
+        <item>求</item>
+        <item>供</item>
+    </string-array>
+    
+    <string-array name="array_list_category">
+        <item>新增子类</item>
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    
+    <string-array name="array_list_category2">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    
+    <string-array name="array_list_city">
+        <item>编辑</item>
+        <item>删除</item>
+    </string-array>
+    
+    <string-array name="array_list_region">
+        <item>编辑</item>
+        <item>删除</item>
+        <item>子区域</item>
+    </string-array>
+    
+    <string-array name="array_phone_control">
+        <item>打电话</item>
+        <item>发短信</item>
+    </string-array>
+    
+    <string-array name="array_list_language">
+        <item>中文</item>
+        <item>中文繁體</item>
+        <item>English</item>
+    </string-array>
+</resources>

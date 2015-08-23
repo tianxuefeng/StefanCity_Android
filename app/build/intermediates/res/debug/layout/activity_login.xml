@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/theme_color" >
+
+        <ImageView
+            android:id="@+id/iconMainLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/labMainAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:background="@null"
+            android:text="@string/btn_register"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+	 <LinearLayout
+        android:id="@+id/layout_user_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="@drawable/layoutbg1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:visibility="visible"
+        android:orientation="vertical" >
+
+        <!-- 登陆邮箱 -->
+
+        <RelativeLayout
+            android:id="@+id/user_login_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="15dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lab_login_email"
+                style="@style/txtSendStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lab_email" />
+
+            <EditText
+                android:id="@+id/edit_login_email"
+                style="@style/editSendStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toRightOf="@+id/lab_login_email"
+                android:hint="@string/hint_email" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/div_line" />
+        <!-- 密码 -->
+
+        <RelativeLayout
+            android:id="@+id/send_row_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lab_login_pawd"
+                style="@style/txtSendStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lab_password" />
+
+            <EditText
+                android:id="@+id/edit_login_pawd"
+                style="@style/editSendStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toRightOf="@+id/lab_login_pawd"
+                android:hint="@string/hint_password"
+                android:password="true" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/btn_login_submit"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_red_selector"
+            android:padding="10dip"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/activity_login.xml -->

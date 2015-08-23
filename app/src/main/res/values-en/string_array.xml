@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_list_type">
+        <item>buyer</item>
+        <item>seller</item>
+    </string-array>
+    
+    <string-array name="array_list_category">
+        <item>add sub-category</item>
+        <item>edit</item>
+        <item>delete</item>
+    </string-array>
+    
+    <string-array name="array_list_category2">
+        <item>edit</item>
+        <item>delete</item>
+    </string-array>
+    
+    <string-array name="array_list_city">
+        <item>edit</item>
+        <item>delete</item>
+    </string-array>
+    
+    <string-array name="array_list_region">
+        <item>edit</item>
+        <item>delete</item>
+        <item>sub region</item>
+    </string-array>
+    
+    <string-array name="array_phone_control">
+        <item>phone</item>
+        <item>texting</item>
+    </string-array>
+    
+    <string-array name="array_list_language">
+        <item>中文</item>
+        <item>中文繁體</item>
+        <item>English</item>
+    </string-array>
+</resources>

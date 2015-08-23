@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- tabPage Indicators style -->
+    <style name="StyledIndicators" parent="@android:style/Theme.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+    
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">#00000000</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+    
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    
+    <style name="CustomUnderlinePageIndicator">
+        <item name="selectedColor">#FFFFFFFF</item>
+        <item name="android:background">#00000000</item>
+        <item name="fadeLength">1500</item>
+        <item name="fadeDelay">1500</item>
+    </style>
+    
+    <!-- button 样式 -->
+    <style name="REButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+    <style name="mainSortButtonStyle" parent="REButton">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_sort_item</item>
+    </style>
+    
+    <!-- lab文本样式 -->
+    <style name="RETextView" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <style name="REEditView" parent="@android:style/Widget.EditText">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+    <!-- 地区切换TextView style -->
+    <style name="txtAddressStyle" parent="RETextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">5dip</item>
+    </style>
+    <!-- 发布信息界面 TextView style -->
+    <style name="txtSendStyle" parent="RETextView">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/font_333</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:minWidth">90dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:drawableRight">@drawable/line_vertical</item>
+    </style>
+    <style name="editSendStyle" parent="REEditView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/font_333</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- 主界面RadioButton导航条样式 -->
+    <style name="reNavRadioButton" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:padding">5dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/font_nav_default</item>
+    </style>
+</resources>

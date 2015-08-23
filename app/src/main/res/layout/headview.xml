@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+    android:background="@color/color_eee"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/lab_list_sel_category"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/abc_spinner_ab_disabled_holo_light"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@color/font_666"
+        android:text="@string/lab_list_category_all" />
+    <ImageView 
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ddd"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginLeft="5dip"
+        />
+	<TextView
+	    android:id="@+id/lab_list_sel_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/abc_spinner_ab_disabled_holo_light"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/font_666"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/lab_main_address" />
+	<ImageView 
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ddd"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginLeft="5dip"
+        />
+	<TextView
+	    android:id="@+id/lab_list_sel_street"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/abc_spinner_ab_disabled_holo_light"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/font_666"
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="gone"
+        android:text="@string/lab_location_region" />
+	<ImageView 
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ddd"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_marginLeft="5dip"
+        android:visibility="gone"
+        />
+	<TextView
+	    android:id="@+id/lab_list_sel_type"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/abc_spinner_ab_disabled_holo_light"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/font_666"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/lab_list_type" />
+</LinearLayout>

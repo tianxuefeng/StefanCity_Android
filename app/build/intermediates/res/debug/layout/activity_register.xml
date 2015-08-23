@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<RelativeLayout
+	    android:id="@+id/layout_userRegisterTop"
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:background="@color/theme_color" 
+		android:orientation="horizontal"
+	>
+	    <Button
+	        android:id="@+id/btn_userRegister_back"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:layout_alignParentLeft="true"
+	     	android:layout_marginLeft="10dip"
+	     	android:layout_centerVertical="true"
+	     	android:background="@drawable/btn_back"
+	    />
+	    <TextView
+	        android:id="@+id/lab_userRegister_title"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:layout_centerHorizontal="true"
+	     	android:layout_centerVertical="true"
+	     	android:layout_marginLeft="5dip"
+	     	style="@style/txtAddressStyle"
+	     	android:textSize="22sp"
+	     	android:text="@string/lab_register"
+	    />
+	</RelativeLayout>
+	<!-- 用户注册 -->
+	<LinearLayout
+        android:id="@+id/layout_user_register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/layoutbg1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+	    <!-- 联系人 -->
+		    <RelativeLayout
+		    	android:id="@+id/send_row_contact"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginTop="8dip"
+		    	android:layout_marginBottom="8dip"
+		    	android:orientation="horizontal"
+		    	android:gravity="center_vertical"
+		    >
+		        <TextView
+		            android:id="@+id/lab_registerName"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_alignParentLeft="true"
+		        	android:text="@string/lab_register_name"
+		        	style="@style/txtSendStyle"
+		        />
+		        <EditText
+		            android:id="@+id/edit_registerName"
+		         	android:layout_width="fill_parent"
+		         	android:layout_height="wrap_content"
+		         	android:layout_marginRight="5dip"
+		         	android:layout_toRightOf="@+id/lab_registerName"
+		         	android:hint="@string/hint_username"
+		         	style="@style/editSendStyle"
+		        />
+		    </RelativeLayout>
+		<ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/div_line" />
+		    <!-- 登陆邮箱 -->
+        <RelativeLayout
+            android:id="@+id/user_register_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="15dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lab_register_email"
+                style="@style/txtSendStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lab_email" />
+
+            <EditText
+                android:id="@+id/edit_register_email"
+                style="@style/editSendStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toRightOf="@+id/lab_register_email"
+                android:hint="@string/hint_email" />
+        </RelativeLayout>
+	</LinearLayout>
+	<!-- 密码 -->
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:background="@drawable/layoutbg1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+        <!-- 密码 -->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lab_register_pawd"
+                style="@style/txtSendStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lab_password" />
+
+            <EditText
+                android:id="@+id/edit_register_pawd"
+                style="@style/editSendStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toRightOf="@+id/lab_register_pawd"
+                android:hint="@string/hint_password"
+                android:password="true"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/div_line" />
+        <!-- 重复输入密码 -->
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:layout_marginTop="8dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lab_register_pawd2"
+                style="@style/txtSendStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/lab_password2" />
+
+            <EditText
+                android:id="@+id/edit_register_pawd2"
+                style="@style/editSendStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:layout_toRightOf="@+id/lab_register_pawd2"
+                android:hint="@string/hint_password2"
+                android:password="true"
+                />
+        </RelativeLayout>
+	</LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/layoutbg1"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+		    <!-- 手机 -->
+		    <RelativeLayout
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginTop="8dip"
+		    	android:layout_marginBottom="8dip"
+		    	android:orientation="horizontal"
+		    	android:gravity="center_vertical"
+		    >
+		        <TextView
+		            android:id="@+id/lab_registerPhone"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_alignParentLeft="true"
+		        	android:text="@string/lab_send_phone"
+		        	style="@style/txtSendStyle"
+		        />
+		        <EditText
+		            android:id="@+id/edit_registerPhone"
+		         	android:layout_width="fill_parent"
+		         	android:layout_height="wrap_content"
+		         	android:layout_marginRight="5dip"
+		         	android:layout_toRightOf="@+id/lab_registerPhone"
+		         	android:phoneNumber="true"
+		         	style="@style/editSendStyle"
+		        />
+		    </RelativeLayout>
+		     <ImageView
+		     	android:layout_width="fill_parent"
+		     	android:layout_height="1dip"
+		     	android:layout_marginLeft="5dip"
+		     	android:layout_marginRight="5dip"
+		     	android:layout_gravity="center_horizontal"
+		     	android:background="@drawable/div_line"   
+		    />
+        <!-- QQ、 -->
+		    <RelativeLayout
+		    	android:id="@+id/send_row_qq"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:layout_marginTop="8dip"
+		    	android:layout_marginBottom="8dip"
+		    	android:orientation="horizontal"
+		    	android:gravity="center_vertical"
+		    >
+				<TextView
+		            android:id="@+id/lab_registerQQ"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_alignParentLeft="true"
+		        	android:text="@string/lab_send_qq"
+		        	style="@style/txtSendStyle"
+		        />	        
+		        <EditText
+		            android:id="@+id/edit_registerQQ"
+		         	android:layout_width="fill_parent"
+		         	android:layout_height="wrap_content"
+		         	android:layout_marginRight="5dip"
+		         	android:phoneNumber="true"
+		         	android:layout_toRightOf="@+id/lab_registerQQ"
+		         	style="@style/editSendStyle"
+		        />
+		    </RelativeLayout>
+    </LinearLayout>
+        <Button
+            android:id="@+id/btn_register_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:minWidth="100dip"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_red_selector"
+            android:padding="10dip"
+            android:text="@string/btn_submit"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+</LinearLayout>
+<!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/activity_register.xml -->

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layoutbg1"
+    android:minWidth="300dip"
+    android:padding="10dip"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="15dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_old_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_category_name" />
+
+        <EditText
+            android:id="@+id/edit_category_man_old_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:enabled="false"
+            style="@style/editSendStyle"
+            android:layout_toRightOf="@+id/lab_category_man_old_name"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <!-- 密码 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_new_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_category_new_name" />
+
+        <EditText
+            android:id="@+id/edit_category_man_new_name"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@+id/lab_category_man_new_name"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_category_edit"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/btn_red_selector"
+        android:padding="10dip"
+        android:text="@string/btn_edit"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/dialog_edit_category.xml -->

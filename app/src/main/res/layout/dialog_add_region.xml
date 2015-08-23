@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/layoutbg1"
+    android:minWidth="300dip"
+    android:padding="10dip"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="15dip"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_region_man_parent_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_region_parent_name" />
+
+        <EditText
+            android:id="@+id/edit_region_man_parent_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:enabled="false"
+            android:visibility="gone"
+            style="@style/editSendStyle"
+            android:layout_toRightOf="@+id/lab_region_man_parent_name"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_region_man_add_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18sp"
+            android:text="@string/lab_region_name" />
+
+        <EditText
+            android:id="@+id/edit_region_man_add_name"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/lab_region_man_add_name"
+            />
+    </RelativeLayout>
+	<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <Button
+        android:id="@+id/btn_dialog_region_add"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/btn_red_selector"
+        android:padding="10dip"
+        android:text="@string/btnOK"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

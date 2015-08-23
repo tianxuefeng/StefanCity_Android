@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rockeagle">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/rockeagle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

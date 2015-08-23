@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:background="@color/theme_color" 
+		android:orientation="horizontal"
+	>
+	    <Button
+	        android:id="@+id/btn_add_category_back"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:layout_alignParentLeft="true"
+	     	android:layout_centerVertical="true"
+	     	android:layout_marginLeft="5dip"
+	     	android:background="@drawable/btn_back"
+	    />
+	    <TextView
+	        android:id="@+id/lab_category_list_tit"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	android:layout_centerHorizontal="true"
+	     	android:layout_centerVertical="true"
+	     	android:layout_marginLeft="5dip"
+	     	android:singleLine="true"
+	     	style="@style/txtAddressStyle"
+	     	android:textSize="22sp"
+	     	android:text="@string/lab_add_category"
+	    />
+	</RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/view_category_add_img"
+	    android:layout_width="100dip"
+	    android:layout_height="100dip"
+	    android:minHeight="100dip"
+	    android:minWidth="100dip"
+	    android:layout_margin="10dip"
+	    android:background="#ffefefef"
+	    >
+	    <ImageView
+		    android:id="@+id/category_add_imgs"
+	        android:layout_width="75dip"
+	        android:layout_height="75dip"
+	        android:layout_gravity="center_vertical|center_horizontal"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:src="@drawable/icon_add" 
+	    />
+		<ImageButton
+		 	android:id="@+id/category_add_img_delete"
+		 	android:layout_width="35dip"
+		 	android:layout_height="35dip"
+		 	android:layout_alignParentTop="true"
+		 	android:layout_alignParentRight="true"
+		 	android:background="@android:drawable/ic_menu_delete"   
+		/>
+	</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="15dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_parent_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_category_parent_name" />
+
+        <EditText
+            android:id="@+id/edit_category_man_add_parent_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:enabled="false"
+            style="@style/editSendStyle"
+            android:layout_toRightOf="@+id/lab_category_man_parent_name"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+	<!-- 分类名称 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_add_name"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_category_new_name" />
+
+        <EditText
+            android:id="@+id/edit_category_man_add_name"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:layout_toRightOf="@+id/lab_category_man_add_name"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <!-- 顺序 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_add_sequence"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_category_sequence" />
+
+        <EditText
+            android:id="@+id/edit_category_man_add_sequence"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:phoneNumber="true"
+            android:layout_toRightOf="@+id/lab_category_man_add_sequence"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <!-- 添加人 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_add_user"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_user_operator" />
+
+        <EditText
+            android:id="@+id/edit_category_man_add_user"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:editable="false"
+            android:layout_toRightOf="@+id/lab_category_man_add_user"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <!-- 描述 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lab_category_man_add_desc"
+            style="@style/txtSendStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/lab_send_desc" />
+
+        <EditText
+            android:id="@+id/edit_category_man_add_desc"
+            style="@style/editSendStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:minLines="3"
+            android:layout_toRightOf="@+id/lab_category_man_add_desc"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <!-- 类型 -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+		
+        	<TextView
+		            android:id="@+id/lab_category_man_add_type"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_alignParentLeft="true"
+		        	android:text="@string/lab_send_pay_type"
+		        	android:layout_centerVertical="true"
+		        	style="@style/txtSendStyle"
+		        />
+		        <RadioGroup 
+		            android:id="@+id/radio_category_man_add_types"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_toRightOf="@+id/lab_category_man_add_type"
+		        	android:layout_centerVertical="true"
+		        	android:orientation="horizontal"
+		        >
+		            <RadioButton 
+		                android:id="@+id/radio_category_man_add_type0"
+		            	android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:layout_marginLeft="10dip"
+		            	android:checked="true"
+		            	android:text="@string/lab_category_type_0"  
+		            />
+		            <RadioButton 
+		                android:id="@+id/radio_category_man_add_type1"
+		            	android:layout_width="wrap_content"
+		            	android:layout_height="wrap_content"
+		            	android:text="@string/lab_category_type_1"  
+		            	android:layout_marginLeft="10dip"  
+		            />
+		        </RadioGroup>
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:background="@drawable/div_line" />
+    <Button
+        android:id="@+id/btn_category_add_submit"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/btn_red_selector"
+        android:padding="10dip"
+        android:text="@string/btnOK"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
+<!-- From: file:/Users/tianxuefeng/Desktop/AndroidstudioProjects/StefanCity_EN/app/src/main/res/layout/activity_add_category.xml -->

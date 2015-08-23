@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:background="@color/theme_color" 
+		android:layout_marginBottom="35dip"
+	>
+		<ImageView
+            android:id="@+id/iconMainLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/logo" />
+	    <TextView
+	        android:id="@+id/info_list_title"
+	     	android:layout_width="wrap_content"
+	     	android:layout_height="wrap_content"
+	     	style="@style/txtAddressStyle"
+	     	android:textSize="22sp"
+	     	android:layout_centerHorizontal="true"
+	     	android:layout_centerVertical="true"
+	     	android:text="@string/lab_location_address"
+	    />
+	</RelativeLayout>
+	
+    <RelativeLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dip"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+        >
+	    <Button 
+		    android:id="@+id/btnLocationToGps"
+		    android:layout_width="100dip"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:text="@string/btn_location"
+		    android:textSize="18sp"
+		    android:textColor="@color/white"
+		    android:layout_alignParentRight="true"
+		    android:padding="8dip"
+		    android:background="@drawable/btn_red_selector"
+		    />
+        <TextView
+            android:id="@+id/labLocationMsg"
+         	android:layout_width="match_parent"
+         	android:layout_height="wrap_content"   
+            style="@style/txtSendStyle"
+            android:layout_toLeftOf="@+id/btnLocationToGps"
+            android:drawableRight="@null"
+            android:layout_centerVertical="true"
+            android:gravity="left"
+            android:text="@string/lab_location_not"
+        />
+    </RelativeLayout>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="10dip"
+	    android:background="@drawable/layoutbg1"
+	    android:orientation="vertical" >
+		
+	    <!-- 国家 -->
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/lab_location_country"
+	            style="@style/txtSendStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/lab_location_country" />
+
+	        <EditText
+	            android:id="@+id/edit_location_country"
+	            style="@style/editSendStyle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="5dip"
+	            android:enabled="false"
+	            android:layout_toRightOf="@+id/lab_location_country"
+	            android:hint="@string/lab_location_country" />
+	    </RelativeLayout>
+
+	    <ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/div_line" />
+	    
+	    <!-- 城市 -->
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/lab_location_city"
+	            style="@style/txtSendStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/lab_location_city" />
+			<Button 
+	            android:id="@+id/btn_location_select_city"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+		     	android:layout_marginLeft="5dip"
+		     	style="@style/txtAddressStyle"
+		     	android:layout_centerVertical="true"
+		     	android:textColor="@color/font_960"
+		     	android:textSize="18sp"
+		     	android:background="@null"
+		     	android:text="@string/lab_select"
+		    />
+	        <EditText
+	            android:id="@+id/edit_location_city"
+	            style="@style/editSendStyle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="5dip"
+	            android:editable="false"
+	            android:layout_toRightOf="@+id/lab_location_city"
+	            android:layout_toLeftOf="@+id/btn_location_select_city"
+	            android:hint="@string/lab_location_city" />
+	    </RelativeLayout>
+
+	    <ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/div_line" />
+	    
+	    <!-- 地区 -->
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/lab_location_locality"
+	            style="@style/txtSendStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/lab_location_locality" />
+			
+	        <Button 
+	            android:id="@+id/btn_location_select_locality"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+		     	android:layout_marginLeft="5dip"
+		     	style="@style/txtAddressStyle"
+		     	android:layout_centerVertical="true"
+		     	android:textColor="@color/font_960"
+		     	android:textSize="18sp"
+		     	android:background="@null"
+		     	android:text="@string/lab_select"
+		    />
+	        
+	        <EditText
+	            android:id="@+id/edit_location_locality"
+	            style="@style/editSendStyle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="5dip"
+	            android:layout_toRightOf="@+id/lab_location_locality"
+	            android:layout_toLeftOf="@+id/btn_location_select_locality"
+	            android:hint="@string/lab_location_locality" />
+	    </RelativeLayout>
+	    
+	    <ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="5dip"
+	        android:background="@drawable/div_line" />
+	    
+	    <!-- 街道 -->
+	    <RelativeLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:gravity="center_vertical"
+	        android:visibility="gone"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/lab_location_street"
+	            style="@style/txtSendStyle"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:text="@string/lab_location_region" />
+			
+	        <Button 
+	            android:id="@+id/btn_location_select_street"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+		     	android:layout_marginLeft="5dip"
+		     	style="@style/txtAddressStyle"
+		     	android:layout_centerVertical="true"
+		     	android:textColor="@color/font_960"
+		     	android:textSize="18sp"
+		     	android:background="@null"
+		     	android:text="@string/lab_select"
+		    />
+	        
+	        <EditText
+	            android:id="@+id/edit_location_street"
+	            style="@style/editSendStyle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="5dip"
+	            android:textSize="14sp"
+	            android:layout_toRightOf="@+id/lab_location_street"
+	            android:layout_toLeftOf="@+id/btn_location_select_street"
+	            android:hint="@string/hint_sel_street" />
+	    </RelativeLayout>
+	</LinearLayout>
+    <Button 
+		    android:id="@+id/btnLocationStart"
+		    android:layout_width="wrap_content"
+		    android:minWidth="100dip"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:text="@string/btn_location_welcome"
+		    android:textSize="18sp"
+		    android:textColor="@color/white"
+		    android:padding="10dip"
+		    android:layout_marginTop="15dip"
+		    android:background="@drawable/btn_red_selector"
+		    />
+    <TextView
+        android:id="@+id/lab_gps_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+</LinearLayout>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stefan同城</string>
+
+    <!-- title -->
+    <string name="title_welcome">歡迎</string>
+    <string name="title_exit">退出</string>
+    <string name="title_delete">删除</string>
+    <string name="title_clear">清空</string>
+    
+    <string name="title_appname">同城</string>
+    <string name="title_setting">設置</string>
+    
+    <!-- label txt -->
+    <string name="lab_login">登陸</string>
+    
+    <string name="lab_sendTime">發佈時間：</string>
+    <string name="lab_time">時間：</string>
+    <string name="lab_price">價格：</string>
+    <string name="lab_detail">詳  細</string>
+    <string name="lab_send_title">標  題</string>
+    <string name="lab_send_desc">描  述</string>
+    <string name="lab_send_price">價  格</string>
+    <string name="lab_send_price_unit">元</string>
+    <string name="lab_send_address">區  域</string>
+    <string name="lab_send_pay_type">交易類型</string>
+    <string name="lab_send_qq">QQ/Skype</string>
+    <string name="lab_send_username">聯繫人</string>
+    <string name="lab_send_phone">手  機</string>
+    <string name="lab_qq">QQ/Skype</string>
+    <string name="lab_username">聯繫人：</string>
+    <string name="lab_phone">聯繫方式</string>
+    <string name="lab_detail_phone">手機：</string>
+    <string name="lab_city">城市</string>
+    <string name="lab_address">地址</string>
+    <string name="lab_message">留言信息</string>
+    
+    <string name="lab_main_address">區域</string>
+    
+    <string name="lab_register_name">姓  名：</string>
+    
+    <string name="lab_list_category_all">全部分類</string>
+    <string name="lab_list_type">類型</string>
+    
+    <string name="lab_email">郵  箱：</string>
+    <string name="lab_password">密  碼：</string>
+    <string name="lab_password2">重複密碼：</string>
+    <string name="lab_detail_info">詳細信息</string>
+    <string name="lab_detail_message">評  論</string>
+    
+    <string name="lab_send_buyers">買家</string>
+    
+    <string name="lab_send_seller">賣家</string>
+    
+    <string name="lab_category_parent_name">上級分類</string>
+    <string name="lab_category_name">分類名稱</string>
+    <string name="lab_category_new_name">更加名稱</string>
+    
+    <string name="lab_send_category">分類</string>
+    <string name="lab_category_man">分類管理</string>
+    <string name="lab_select_category">選擇分類</string>
+    <string name="lab_add_category">新增分類</string>
+    <string name="lab_edit_category">編輯分類</string>
+    
+    <string name="lab_user_message">消息中心</string>
+    <string name="lab_user_send">我的發佈</string>
+    <string name="lab_user_favorites">我的收藏</string>
+    <string name="lab_user_history">瀏覽記錄</string>
+    
+    <string name="lab_user_operator">操作人</string>
+    
+    <string name="lab_user_score">我的積分</string>
+    <string name="lab_category_sequence">分類順序</string>
+    
+    <string name="lab_user_like">猜你喜歡</string>
+    <string name="lab_user_search">快捷搜索</string>
+    
+    <string name="lab_user_manage">管理中心</string>
+    
+    <string name="lab_gps_location">GPS定位</string>
+    
+    <string name="lab_location_address">城市定位</string>
+    
+    <string name="lab_location_country">國家</string>
+    <string name="lab_location_city">城市</string>
+    <string name="lab_location_locality">地區</string>
+    <string name="lab_location_region">街道</string>
+    
+    <string name="lab_select">選擇</string>
+    
+    <string name="lab_local_sel_pro">選擇省份</string>
+    <string name="lab_local_sel_area">選擇地區</string>
+    
+    <string name="lab_region_parent_name">上級地區</string>
+    <string name="lab_region_name">地區名稱</string>
+    
+    <string name="lab_location_not">尚未定位</string>
+    <string name="lab_localing">正在定位中...</string>
+    
+    <string name="lab_localing_regex">定位成功，解析中...</string>
+    
+    <string name="lab_location_old">上次的定位信息：</string>
+    <string name="lab_local_cur">當前位置：</string>
+    
+    <string name="lab_register">註冊新用戶</string>
+    
+    <string name="lab_not">無</string>
+    
+    <string name="lab_detail_reads">熱度：</string>
+    
+    <string name="lab_detail_msg">我要評論</string>
+    
+    <string name="history_NoInfo">尚無信息，點擊可重試</string>
+    <!-- edit hint -->
+    <string name="hint_title">請輸入標題</string>
+    <string name="hint_desc">狀況、亮點等，建議10字以上</string>
+    <string name="hint_address">請選擇區域</string>
+    <string name="hint_sel_category">請選擇分類</string>
+    <string name="hint_username">至少2字</string>
+    
+    <string name="hint_email">請輸入您的郵箱</string>
+    <string name="hint_password">請輸入密碼</string>
+    <string name="hint_password2">請再次輸入密碼</string>
+    
+    <string name="hint_search">請輸入城市名稱或者首寫字母</string>
+    
+    <string name="hint_detail_msg">說些什麼呢</string>
+    <!-- nav text -->
+    <string name="main_nav_home">首頁</string>
+    <string name="main_nav_score">積分</string>
+    <string name="main_nav_user">個人中心</string>
+    
+    <!-- button txt -->
+    <string name="btn_goto_main">開始</string>
+    <string name="btn_sort_merchandise">二手交易</string>
+    <string name="btn_sort_estate">房    產</string>
+    <string name="btn_sort_work">工    作</string>
+    
+    <string name="btn_clear">清空</string>
+    
+    <string name="btn_camera">拍攝照片</string>
+    <string name="btn_select_file">選擇圖片</string>
+    
+    <string name="btn_send_addImg">添加圖片</string>
+    <string name="btn_send">發佈</string>
+    <string name="btn_add">新增</string>
+    
+    <string name="btn_sendinfo">發佈信息</string>
+    
+    <string name="btn_submit">提  交</string>
+    
+    <string name="btn_send_msg">評論</string>
+    
+    <string name="btn_back">返回</string>
+    <string name="btn_detail">詳情</string>
+    <string name="btn_favorites">收藏</string>
+    
+    <string name="btn_back_locat">選擇城市</string>
+    
+    <string name="btn_login">用戶登陸</string>
+    
+    <string name="btn_edit">修改</string>
+    
+    <string name="btn_register">註冊</string>
+    <string name="btn_logout">退出登陸</string>
+    <string name="btn_loging">登錄中...</string>
+    
+    <string name="btn_register_signin">正在註冊中...</string>
+    
+    <string name="btn_loading">加載中...</string>
+    
+    <string name="btnOK">確定</string>
+    <string name="btnNO">取消</string>
+    
+    <string name="btn_search">搜索</string>
+    
+    <string name="btn_location_welcome">歡迎使用</string>
+    
+    <string name="btn_location">定位</string>
+    <!-- radio txt -->
+    <string name="radio_languageZH_CN">简体中文</string>
+    <string name="radio_languageZH">繁體中文</string>
+    <string name="radio_languageEN">English</string>
+    <!-- msg string -->
+    <string name="msg_exit">確定退出嗎？</string>
+    <string name="msg_delete">確定刪除嗎？</string>
+    
+    <string name="msg_not_login">請先登錄</string>
+    
+    <string name="msg_add_favorite_success">收藏成功！</string>
+    <string name="msg_clear">確定清空信息嗎！</string>
+    
+    <string name="msg_history_info_error">信息已失效！</string>
+    
+    <string name="msg_not_net">請檢查網絡狀態</string>
+    
+    <string name="msg_login_error">登陸失敗，請檢查賬號密碼是否正確</string>
+    <string name="msg_login_success">登陸成功</string>
+    
+    <string name="msg_net_notinfo">數據獲取失敗，請檢查網絡連接</string>
+    
+    <string name="msg_send_not_msg">請輸入評論內容</string>
+    <string name="msg_send_msg_success">評論成功</string>
+    <string name="msg_send_msg_error">評論失敗</string>
+    
+    <string name="msg_select_file">請選擇圖片</string>
+    
+    <string name="msg_send_not_title">標題不能為空</string>
+    <string name="msg_send_not_desc">請輸入描述</string>
+    <string name="msg_send_not_price">請輸入價格</string>
+    <string name="msg_send_not_address">請選擇區域</string>
+    <string name="msg_send_not_username">請輸入聯繫人</string>
+    <string name="msg_send_not_name">請輸入名稱</string>
+    <string name="msg_send_not_phone">請輸入手機號碼</string>
+    <string name="msg_send_not_qq">請輸入QQ/Skype</string>
+    <string name="msg_send_not_category">請選擇分類</string>
+    
+    <string name="msg_not_region_name">請輸入地區名稱</string>
+    
+    <string name="msg_not_category_name">請輸入分類名稱</string>
+    <string name="msg_not_sequence">請輸入顯示順序</string>
+    
+    <string name="msg_login_not_email">請輸入登陸郵箱</string>
+    <string name="msg_login_not_pawd">請輸入密碼</string>
+    <string name="msg_login_not_pawd2">請重複輸入密碼</string>
+    
+    <string name="msg_clear_cache">確定清空緩存信息嗎? 清除緩存有利於手機空間，但在下次啟動的時候，會重新加載圖片等信息。</string>
+    
+    <string name="msg_clear_temp">確定清除臨時文件嗎？</string>
+    
+    <string name="msg_edit_success">編輯成功</string>
+    <string name="msg_edit_error">編輯失敗</string>
+    
+    <string name="msg_add_success">添加功</string>
+    <string name="msg_add_error">添加失敗</string>
+    
+    <string name="msg_upload_img_error">圖片上傳失敗</string>
+    
+    <string name="msg_clear_success">清理成功</string>
+    <string name="msg_clear_error">清理失敗</string>
+    
+    <string name="msg_register_not_pawd_error">兩次輸入的密碼不一致</string>
+    
+    <string name="msg_register_success">註冊成功！</string>
+    <string name="msg_register_success_login_error">註冊成功！自動登錄失敗，請手動登錄</string>
+    <string name="msg_register_error">註冊失敗！請檢查輸入的信息是否正確</string>
+    
+    <string name="msg_send_success">發佈成功</string>
+    <string name="msg_send_error">發佈失敗</string>
+    
+    <string name="msg_login_check_email">郵箱格式不正確</string>
+    
+    <string name="msg_city_select_city_error">定位失敗或尚未定位，可以直接選擇所屬地區</string>
+    
+    <string name="msg_loading_error_reset">加載失敗，點擊重試</string>
+    
+    <string name="msg_local_success">定位成功</string>
+    <string name="msg_local_gps_isclose">GPS未打開</string>
+    <string name="msg_local_click">正在定位中，如果定位時間過長或超時，請直接選擇地區或者退出重試</string>
+    <string name="msg_local_error">定位失敗，點擊重試</string>
+    <string name="msg_local_error2">定位失敗，請手動選擇</string>
+    
+    <string name="msg_the_next_version">更多精彩，請期待下一個版本……</string>
+    
+    <string name="msg_category_error">分類數據加載失敗</string>
+    <string name="msg_category_delete_error">删除失敗，請先刪除該分類下面的子類！</string>
+    
+    <string name="msg_LoadMore">查看更多</string>
+    <string name="msg_Load">加載中&#8230;</string>
+    <string name="msg_LoasLast">已加載到最後</string>
+    
+    <string name="msg_operate_error">操作失敗</string>
+    
+    <string name="msg_keyword_is_not_null">搜索的關鍵字不能為空</string>
+    
+    <string name="storage_unavailable">SD卡不能使用，請檢查SD卡</string>
+    <string name="error">錯誤</string>
+    <string name="file_renamed">文件\'%1$s\' 已存在, 請另命名 \'%2$s\' </string>
+    
+    <!-- 设置 -->
+    <string name="setting_prompt_on">開啟\s功能</string>
+    <string name="setting_prompt_off">關閉\s功能</string>
+    <string name="setting_clear_history">清空瀏覽記錄</string>
+    <string name="setting_clear_cache">清除緩存</string>
+    <string name="setting_clear_temp">清除臨時數據</string>
+    
+    <!-- language -->
+    <string name="setting_language">選擇語言</string>
+    <string name="country_china">中國</string>
+    
+    <!-- hint -->
+    <string name="search_hit">輸入關鍵字進行搜索</string>
+    
+</resources>
