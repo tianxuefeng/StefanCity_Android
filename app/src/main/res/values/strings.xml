@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Stefan同城</string>
+    <string name="app_name">史蒂芬同城</string>
 
     <!-- title -->
     <string name="title_welcome">欢迎界面</string>
